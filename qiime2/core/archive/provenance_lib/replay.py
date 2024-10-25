@@ -770,7 +770,7 @@ def build_action_usage(
 
     # Process outputs before params so we can access the unique output name
     # from the namespace when dumping metadata to files below
-    # NOTE: artificat collection members are not detected here; we don't care
+    # NOTE: artifact collection members are not detected here; we don't care
     # because we don't need to name them until they are used individually as
     # inputs to another action
     raw_outputs = std_actions[action_id].items()
