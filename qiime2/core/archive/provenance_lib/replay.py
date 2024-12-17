@@ -76,7 +76,7 @@ class ReplayConfig:
         self.header = header
         self.verbose = verbose
         self.md_out_dir = md_out_dir
-        self.pm = PluginManager()
+        self.pm = PluginManager.reuse_existing()
 
 
 @dataclass
